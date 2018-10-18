@@ -7,7 +7,7 @@ import requests
 import numpy as np
 
 originalURL = "https://gist.github.com/paulmillr/2657075"
-token = "3e46b4a5b1a9145fc8736241e59132f08daa856f"
+token = ""
 git_API_URL="https://api.github.com/"
 headers={'Content-Type': 'application/json', 'Authorization': 'token {}'.format(token)}
 
